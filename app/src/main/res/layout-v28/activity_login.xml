@@ -17,6 +17,7 @@
         android:layout_marginTop="20sp"
         android:layout_marginLeft="20sp"
         android:layout_marginRight="20sp"
+        android:transitionName="logo_image"
         android:contentDescription="@string/logo" />
 
     <TextView
@@ -30,6 +31,7 @@
         android:textAllCaps="true"
         android:fontFamily="@font/montserrat_bold"
         android:layout_marginLeft="20sp"
+        android:transitionName="logo_text"
         android:layout_marginRight="20sp"/>
 
     <TextView
@@ -58,6 +60,7 @@
             android:layout_height="wrap_content"
             android:id="@+id/username"
             android:hint="@string/username"
+            app:boxStrokeColor="@color/black"
             android:fontFamily="@font/montserrat_medium"
             android:textSize="22sp"
             android:textColor="@color/black"
@@ -75,6 +78,7 @@
             android:layout_height="wrap_content"
             android:fontFamily="@font/montserrat_medium"
             android:textColor="@color/black"
+            app:boxStrokeColor="@color/black"
             android:hint="@string/password"
             android:textSize="22sp"
             app:passwordToggleEnabled="true">
@@ -101,6 +105,7 @@
             android:layout_height="wrap_content"
             android:backgroundTint="@color/black"
             android:text="@string/sign_in"
+            android:textColor="@color/white"
             android:textAllCaps="true"
             android:hapticFeedbackEnabled="true"
             tools:ignore="VisualLintButtonSize" />
@@ -109,22 +114,24 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:backgroundTint="#00000000"
-            android:text="@string/new_user_sign_up"
-            android:textColor="#000"
-            android:textAllCaps="true"
             android:hapticFeedbackEnabled="true"
+            android:id="@+id/signup_screen"
+            android:text="@string/new_user_sign_up"
+            android:textAllCaps="true"
+            android:textColor="#000"
             tools:ignore="VisualLintButtonSize" />
 
 
     </LinearLayout>
 
     <Button
-        android:id="@+id/Continue"
+        android:id="@+id/continue_dashboard"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:backgroundTint="#00000000"
         android:text="@string/continue_without_signing_in"
         android:textAllCaps="true"
+        android:onClick="Continue"
         android:textColor="#000"
         android:hapticFeedbackEnabled="true"
         android:layout_marginLeft="20sp"

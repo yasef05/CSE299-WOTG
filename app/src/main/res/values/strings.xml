@@ -43,7 +43,6 @@
         vestibulum. Fusce dictum libero quis erat maximus, vitae volutpat diam dignissim.
     </string>
     <string name="dashboard">Dashboard</string>
-    <string name="farhan_sucks">FARHAN SUCKS</string>
     <string name="continue_without_signing_in">Continue Without signing in</string>
     <string name="new_user_sign_up">New User? Sign Up</string>
     <string name="sign_in">Sign In</string>
@@ -54,4 +53,11 @@
     <string name="password">Password</string>
     <string name="hi_there_nwelcome_back">Hi there \nwelcome back!</string>
     <string name="logo">Logo</string>
+    <string name="full_name">Full Name</string>
+    <string name="email">Email</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="welcome">Welcome!</string>
+    <string name="create_an_account">Create an Account</string>
+    <string name="create_account">Create Account</string>
+    <string name="already_have_an_account_login">Already Have an Account? Login</string>
 </resources>
