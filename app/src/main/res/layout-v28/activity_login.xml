@@ -64,11 +64,16 @@
             android:fontFamily="@font/montserrat_medium"
             android:textSize="22sp"
             android:textColor="@color/black"
+            app:hintTextColor="@color/black"
+            android:textColorHint="#9f9f9f"
+            app:endIconMode="clear_text"
+            app:endIconTint="@color/black"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"/>
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"/>
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
@@ -77,17 +82,19 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:fontFamily="@font/montserrat_medium"
-            android:textColor="@color/black"
             app:boxStrokeColor="@color/black"
             android:hint="@string/password"
             android:textSize="22sp"
-            app:passwordToggleEnabled="true">
+            app:passwordToggleEnabled="true"
+            app:hintTextColor="@color/black"
+            android:textColorHint="#9f9f9f"
+            app:passwordToggleTint="@color/black">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="textPassword"
-                tools:ignore="TextContrastCheck" />
+                android:textColor="@color/black"/>
         </com.google.android.material.textfield.TextInputLayout>
 
         <Button
@@ -98,7 +105,7 @@
             android:textColor="@color/black"
             android:layout_gravity="right"
             android:hapticFeedbackEnabled="true"
-            tools:ignore="RtlHardcoded" />
+            tools:ignore="RtlHardcoded"/>
 
         <Button
             android:layout_width="match_parent"
