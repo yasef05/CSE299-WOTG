@@ -183,6 +183,7 @@
             android:layout_height="wrap_content"
             android:backgroundTint="@color/black"
             android:layout_marginTop="20sp"
+            android:id="@+id/confirm_button"
             android:text="@string/create_account"
             android:onClick="registerUser"
             android:textColor="@color/white"

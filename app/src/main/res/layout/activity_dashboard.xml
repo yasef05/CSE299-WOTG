@@ -24,7 +24,7 @@
         app:layout_constraintTop_toTopOf="parent"
         android:onClick="Continue"/>
 
-    <Button
+    <!--<Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -32,6 +32,15 @@
         android:backgroundTint="@color/black"
         tools:layout_editor_absoluteX="160dp"
         tools:layout_editor_absoluteY="539dp"
+        tools:ignore="MissingConstraints" />-->
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Profile"
+        tools:layout_editor_absoluteX="14dp"
+        tools:layout_editor_absoluteY="43dp"
         tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
